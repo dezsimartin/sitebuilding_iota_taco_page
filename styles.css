@@ -1,0 +1,129 @@
+    html {
+        height: 100%
+    }
+    
+    body {
+        background-image: url("./topography.svg"), linear-gradient(110deg, #f93d66, #6d47d9);
+        background-size: 340px, auto;
+        min-height: calc(100vh - 100px);
+        margin: 50px;
+        background-attachment: fixed;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    table {
+        margin-bottom: 0px !important;
+        /* Bootstrap overwrite */
+    }
+    /* NAVBAR változtatások*/
+    
+    .bg-light {
+        background-image: url("./topography.svg"), linear-gradient(110deg, #f93d66, #6d47d9);
+        border: 5px solid #ffc600;
+    }
+    
+    .nav-link {
+        background-color: #ffc600;
+        margin: 10px;
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;
+        /* Bootstrap overwrite */
+    }
+    /*Flexbox ontainerek és itemek*/
+    
+    .content__container {
+        border: 5px solid #ffc600;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .price__container {
+        height: 50vh;
+        display: flex;
+        width: 80vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .price_item {
+        background-color: #ffc600;
+        height: 15vh;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .main__logo {
+        height: 40vh;
+        width: 60vw;
+        border: 2px solid #ffc600;
+    }
+    
+    .hobby__item_container {
+        height: 100%;
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .hobby_item {
+        background-color: #ffc600;
+        margin-right: 10px;
+        width: 15vw;
+        height: 20vh;
+        overflow: auto;
+        flex: 1 1 auto;
+    }
+    
+    .hobby_item:last-child {
+        margin-right: 0px;
+    }
+    
+    .hobby_item p {
+        text-align: center;
+        padding-top: 5vh;
+    }
+    
+    .sale__container {
+        background-color: #ffc600;
+        width: 80vw;
+        display: flex;
+        justify-content: flex-start;
+        margin: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .sale_item {
+        margin: 10px;
+    }
+    
+    .sale_featured_text {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .menu__container {
+        display: flex;
+        height: 60vh;
+        width: 80vw;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .card {
+        margin: 10px;
+        background-color: #ffc600;
+    }
+    
+    .card-img-top {
+        height: 300px;
+        width: auto;
+    }
